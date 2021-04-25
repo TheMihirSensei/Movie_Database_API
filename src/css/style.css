@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    
+    
+}
+body{
+    background-color:#808080;
+}
+
+/* header section */
+
+.header{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    height:4.3em;
+    background-color:black;
+    opacity: 85%;
+    color:whitesmoke;
+    position:fixed;
+    top:0;
+    box-shadow: 0 8px 6px -6px black;
+    font-family: 'Libre Baskerville', serif;
+    z-index: 1000;
+}
+
+#searchInput{
+    border: none;
+    margin:0.7em 5em;
+    padding:1em;
+    width:50em;
+    outline: none;
+    
+
+}
+#searchButton{
+    width:5em;
+    border:none;
+    background-color: blueviolet;
+    color:aliceblue;
+    margin:0.7em 5em;
+    padding:0.7em;
+    font-size: 1em;
+    transition:0.3s ease-in;
+    
+}
+#searchButton:hover{
+    background-color: rgb(67, 201, 67);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+
+}
+
+#movieData{
+    color:black;
+    margin-top:5em;
+
+}
+#movieLogo{
+    width:3em;
+    height:50px;
+    margin-top:0.5em;
+    margin-left:1em;
+    box-shadow: 0 8px 6px -6px white;
+
+}
+
+.footer{
+    width:100%;
+    height:50px;
+    background-color:#191919;
+    position:relative;
+    margin-top:2em;
+    bottom: 0;
+    color:#a3a3a3;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding-top:1em;
+    justify-content: space-evenly;
+}
+
